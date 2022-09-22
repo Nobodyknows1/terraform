@@ -2,7 +2,7 @@ resource "aws_instance" "web" {
   ami           = "ami-05fa00d4c63e32376"
   instance_type = "t2.micro"
   security_groups = [aws_security_group.TF_SG.name]
-  count = 2
+  #count = 2
   #key_name = "demo"
   tags = {
     Name = "TerraF Ec2"
