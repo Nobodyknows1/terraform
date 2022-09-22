@@ -5,7 +5,7 @@ resource "aws_instance" "web" {
   #count = 2
   #key_name = "demo"
   tags = {
-    Name = "TerraF Ec2"
+    Name = "TF_Ec2"
   }
 }
 
